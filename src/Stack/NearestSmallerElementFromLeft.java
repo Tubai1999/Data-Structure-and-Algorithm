@@ -2,7 +2,7 @@ package Stack;
 
 import java.util.ArrayDeque;
 
-public class NearestSmallerElement {
+public class NearestSmallerElementFromLeft {
     public static void main(String[] args) {
         int[] arr = {3, 4, 2, 7, 8, 1, 9}; //result = [-1, 3, -1, 2, 7, -1, 1]
         ArrayDeque<Integer> stack = new ArrayDeque<>();
