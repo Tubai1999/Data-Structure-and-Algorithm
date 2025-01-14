@@ -1,4 +1,4 @@
-package gfg160;
+package gfg160.Array;
 
 public class Day5 {
     void nextPermutation(int[] arr) {

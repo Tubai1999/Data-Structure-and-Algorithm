@@ -1,4 +1,4 @@
-package gfg160;
+package gfg160.Array;
 
 public class Day10 { //kadane's algo
     int maxSubarraySum(int[] arr) {

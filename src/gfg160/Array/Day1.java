@@ -1,4 +1,4 @@
-package gfg160;
+package gfg160.Array;
 
 public class Day1 {
     public int getSecondLargest(int[] arr) {

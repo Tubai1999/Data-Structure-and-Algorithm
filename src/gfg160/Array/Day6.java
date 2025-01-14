@@ -1,4 +1,4 @@
-package gfg160;
+package gfg160.Array;
 import java.util.*;
 
 public class Day6 {

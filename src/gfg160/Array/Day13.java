@@ -1,4 +1,4 @@
-package gfg160;
+package gfg160.Array;
 
 public class Day13 {
     public int missingNumber(int[] arr) {

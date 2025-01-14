@@ -1,4 +1,4 @@
-package gfg160;
+package gfg160.Array;
 
 public class Day4 {
     static void reverseSubArray(int[] arr, int start, int end){

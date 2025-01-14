@@ -1,4 +1,4 @@
-package gfg160;
+package gfg160.Array;
 
 public class Day2 {
     void pushZerosToEnd(int[] arr) {
