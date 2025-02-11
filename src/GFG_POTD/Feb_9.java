@@ -7,7 +7,6 @@ public class Feb_9 {
         ans[0] = Integer.MIN_VALUE;
         findMaxSumHelper(node,ans);
         return ans[0];
-
     }
 
     int findMaxSumHelper(Node node,int[] ans){
