@@ -19,8 +19,8 @@ public class BST {
         printInorder(node1);
         System.out.println();
 //        System.out.println(searchInBinarySearchTree(node1,9));
-        insertIntoBinarySearchTree(node1,15);
-        printInorder(node1);
+//        insertIntoBinarySearchTree(node1,15);
+//        printInorder(node1);
     }
 
     static Node insertIntoBinarySearchTree(Node root, int key){
