@@ -3,7 +3,6 @@ import java.util.*;
 
 public class MorrisTraversal {
     ArrayList<Integer> inOrder(Node root) {
-        // Code
         ArrayList<Integer> ans = new ArrayList<>();
         inorderHelper(root, ans);
         return ans;
