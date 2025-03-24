@@ -17,4 +17,5 @@ public class ClimbStairsMemoization {
         if(dp[index] != -1) return dp[index];
         return dp[index] = cost[index]+ Math.min(helper(cost,index+1,n,dp),helper(cost,index+2,n,dp));
     }
+    //new line
 }
