@@ -7,7 +7,7 @@ public class ThrowLearning {
             Adult(1);
             builtInExceptionCheck(arr);
         } catch (CustomException e) {
-            System.out.println(e.getMessage());
+            System.out.println("exception caught "+e.getMessage());
 //            throw new RuntimeException(e);
         }catch (ArrayIndexOutOfBoundsException e){
             System.out.println(e.getMessage());
