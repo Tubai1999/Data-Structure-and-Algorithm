@@ -1,6 +1,7 @@
 package gfg160.PrefixSum;
 
 public class Day61 {
+    //comment out
     public static int findEquilibrium(int arr[]) {
         // code here
         int n = arr.length;
