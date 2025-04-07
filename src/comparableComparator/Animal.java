@@ -2,7 +2,7 @@ package comparableComparator;
 
 public class Animal implements Comparable<Animal> {
     int age;
-    String name;
+    String name; //comment
     Animal(int age,String name)
     {
         this.age = age;
