@@ -9,7 +9,7 @@ public class MonitorLockMainClass  {
         Thread t3 = new Thread(obj1);
         t1.start();
         t2.start();
-        t3.start();
+        t3.start(); //Monitor lock
     }
 
 
