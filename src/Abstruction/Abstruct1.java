@@ -5,7 +5,7 @@ public class Abstruct1 extends Vehicle{
     @Override
     public void Bus() {
         System.out.println("this is bus");
-    }
+    } //
     @Override
     public void Scooty() {
         System.out.println("this is scooty section");
