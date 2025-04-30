@@ -13,8 +13,8 @@ public class MainCar {
         carList.add(new Car("xuv","cng"));
 
 //        Arrays.sort(carList,(Car a,Car b) -> a.engine.compareTo(b.engine));
-    Collections.sort(carList,(Car a, Car b) -> a.engine.compareTo(b.engine));
-
+//    Collections.sort(carList,(Car a, Car b) -> a.engine.compareTo(b.engine));
+        Collections.sort(carList);
         System.out.println(carList);
     }
 }
