@@ -1,31 +1,40 @@
 package Abstruction.interfaceVsAbstraction;
 
-interface Tiger{
-    void roaring();
-}
+
 abstract class Animal{
-    abstract void abstractMethod();
-    void concreteMethod(){
-        System.out.println("inside concrete method");
+    int leg=4;
+    Animal(int leg){
+        leg = this.leg;
+        System.out.println("inside animal constructor");
     }
-
+    abstract void roar();
+     void walking(){
+         System.out.println("animal is walking");
+    }
 }
 
-public class interfaceAbstract extends Animal implements Tiger {
+abstract class Tiger extends Animal{
+    Tiger(int leg) {
+        super(leg);
+    }
+
+    abstract void running();
+    void roar(){
+        System.out.println("Tiger roaring");
+    }
+}
+
+public class interfaceAbstract extends Tiger{
+    interfaceAbstract(int leg) {
+        super(leg);
+    }
+
+    @Override
+    void running() {
+        System.out.println("it is running inside main class");
+    }
     public static void main(String[] args) {
-        Animal obj = new interfaceAbstract();
-        obj.concreteMethod();
-        obj.abstractMethod();
+        interfaceAbstract obj = new interfaceAbstract(4);
 
-    }
-
-    public void roaring(){
-        System.out.println("tiger is roaring");
-    }
-    void normalMethod(){
-        System.out.println("inside interfaceAbstract method");
-    }
-    void abstractMethod() {
-        System.out.println("implemented abstract method from abstract class");
     }
 }
