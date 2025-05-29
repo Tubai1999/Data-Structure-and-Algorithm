@@ -2,6 +2,8 @@ package SingletonClass;
 
 class EagerExample{
 
+
+    //comment
     static EagerExample eagerExample = new EagerExample();
     private EagerExample(){
 
