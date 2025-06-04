@@ -14,7 +14,7 @@ public class MinPathSumGrid {
         return Math.min(right,down);
     }
 
-
+//commented
     public static void main(String[] args) {
         int[][] arr = {{1,2,3},{5,9,60},{11,5,2}};
         System.out.println(MainPathSumGridHelper(arr,0,0,3,3));
