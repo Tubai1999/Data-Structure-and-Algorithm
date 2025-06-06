@@ -17,7 +17,7 @@ interface Function<T,R>{
 interface Predicate<T>{
     boolean predicateMethod(T t);
 }
-
+//comment
 public class ConsumerPractice  {
     public static void main(String[] args) {
         Consumer<Integer> consumer = ((val)->{
