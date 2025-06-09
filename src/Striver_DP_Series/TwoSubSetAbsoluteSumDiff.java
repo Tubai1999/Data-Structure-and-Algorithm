@@ -14,7 +14,7 @@ public class TwoSubSetAbsoluteSumDiff {
         return dp[index][sum] = Math.min(include,exclude);
 
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) { //commented
         int[] arr = {3,4,3,15};
         int totalSum = 0;
         for(int a:arr) totalSum += a;
