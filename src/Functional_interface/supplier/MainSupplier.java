@@ -1,6 +1,6 @@
 package Functional_interface.supplier;
 
-public class MainSupplier {
+public class   MainSupplier {
     public static void main(String[] args) {
 //        supplier<String> obj = ()->{
 //            return "invoked supplier";
