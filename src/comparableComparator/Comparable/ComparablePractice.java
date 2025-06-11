@@ -6,7 +6,6 @@ import java.util.List;
 
 class Person implements Comparable<Person>{
     String name;
-
     @Override
     public String toString() {
         return "Person{" +
@@ -14,13 +13,11 @@ class Person implements Comparable<Person>{
                 ", age=" + age +
                 '}';
     }
-
     int age;
     public Person(String name, int age){
         this.name = name;
         this.age = age;
     }
-
     @Override
     public int compareTo(Person o) {
 //        return this.age-o.age;
