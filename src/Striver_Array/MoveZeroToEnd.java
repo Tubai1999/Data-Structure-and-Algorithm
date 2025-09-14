@@ -33,3 +33,4 @@ public class MoveZeroToEnd {
         for (int a:arr) System.out.print(a+" ");
     }
 }
+//new approach to be added
