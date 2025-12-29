@@ -16,5 +16,6 @@ public class GenericClass {
         Generic1<Integer> intObj = new Generic1<>();
         intObj.setValue(10);
         System.out.println(intObj.getValue());
+        //comments added
     }
 }
