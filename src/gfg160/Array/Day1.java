@@ -1,7 +1,7 @@
 package gfg160.Array;
 
 public class Day1 {
-    public int getSecondLargest(int[] arr) {
+    public int getSecondLargest(int[] arr) { //added comment
 
         int firstLargest = arr[0];
         int secondLargest = -1;
@@ -31,5 +31,6 @@ public class Day1 {
 
         // if(ans.length == 1) return -1;
         // else return ans[ans.length-2];
+        //dfsgrw
     }
 }
