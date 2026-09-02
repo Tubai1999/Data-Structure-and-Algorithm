@@ -15,8 +15,14 @@ public class Default_static {
 //        obj.bark();
 //        obj.defaultAnimal();
 //        Animal.staticAnimal();
-        Animal obj = () -> {
-            System.out.println("it is barking");
+//        Animal obj = () -> {
+//            System.out.println("it is barking");
+//        };
+        Animal obj = new Animal() {
+            @Override
+            public void bark() {
+                System.out.println("it is barking");
+            }
         };
         obj.bark();
     }

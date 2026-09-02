@@ -4,7 +4,6 @@ public class ExceptionLearning {
 
     public static void main(String[] args) {
         try {
-
                 int[] arr = {1,2};
             System.out.println(arr[2]);
             int val = 10/0;
